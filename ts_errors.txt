@@ -1,0 +1,10 @@
+resources/js/components/app-header.tsx(65,50): error TS2559: Type 'string' has no properties in common with type 'RouteQueryOptions'.
+resources/js/components/cancel-invitation-modal.tsx(13,46): error TS2307: Cannot find module '@/routes/teams/invitations' or its corresponding type declarations.
+resources/js/components/create-team-modal.tsx(18,23): error TS2307: Cannot find module '@/routes/teams' or its corresponding type declarations.
+resources/js/components/delete-team-modal.tsx(16,25): error TS2307: Cannot find module '@/routes/teams' or its corresponding type declarations.
+resources/js/components/delete-user.tsx(58,51): error TS2339: Property 'destroy' does not exist on type '{ edit: { (options?: RouteQueryOptions | undefined): RouteDefinition<"get">; definition: { methods: ["get", "head"]; url: string; }; url(options?: RouteQueryOptions | undefined): string; get(options?: RouteQueryOptions | undefined): RouteDefinition<...>; head(options?: RouteQueryOptions | undefined): RouteDefinition...'.
+resources/js/components/invite-member-modal.tsx(23,42): error TS2307: Cannot find module '@/routes/teams/invitations' or its corresponding type declarations.
+resources/js/components/remove-member-modal.tsx(13,42): error TS2307: Cannot find module '@/routes/teams/members' or its corresponding type declarations.
+resources/js/components/team-switcher.tsx(14,30): error TS2307: Cannot find module '@/routes/teams' or its corresponding type declarations.
+resources/js/pages/settings/profile.tsx(37,25): error TS2353: Object literal may only specify known properties, and 'name' does not exist in type 'RouteQueryOptions'.
+resources/js/pages/welcome.tsx(10,50): error TS2559: Type 'string' has no properties in common with type 'RouteQueryOptions'.
